@@ -1,0 +1,2 @@
+﻿  1_4_hello_client_win.c
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Windows\Lecture_Windows\1_4_hello_client_win.c(40,34): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
