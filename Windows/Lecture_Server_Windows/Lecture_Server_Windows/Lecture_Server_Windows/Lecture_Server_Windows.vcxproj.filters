@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chapter1">
+      <UniqueIdentifier>{d7d207ab-8437-4a92-bfbd-eea99acf6934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter2">
+      <UniqueIdentifier>{ce799116-8c37-4c50-acf8-5223b49dcca6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1_1_hello_server_win.c">
+      <Filter>Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="2_1_tcp_server_win.c">
+      <Filter>Chapter2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
