@@ -1,2 +1,5 @@
-﻿  2_1_tcp_server_win.c
+﻿  3_3_conv_addr_win.c
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\3_3_conv_addr_win.c(29,34): warning C4090: 'function': different 'const' qualifiers
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\3_3_conv_addr_win.c(29,2): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\3_3_conv_addr_win.c(33,2): warning C4996: 'WSAAddressToStringA': Use WSAAddressToStringW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   Lecture_Server_Windows.vcxproj -> D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Debug\Lecture_Server_Windows.exe

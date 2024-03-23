@@ -7,6 +7,9 @@
     <Filter Include="Chapter2">
       <UniqueIdentifier>{ce799116-8c37-4c50-acf8-5223b49dcca6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter3">
+      <UniqueIdentifier>{e2bad50e-6990-484f-bea3-b09f3efddfed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -14,6 +17,15 @@
     </ClCompile>
     <ClCompile Include="2_1_tcp_server_win.c">
       <Filter>Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="3_1_endian_conv_win.c">
+      <Filter>Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3_2_inet_adrconv_win.c">
+      <Filter>Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="3_3_conv_addr_win.c">
+      <Filter>Chapter3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
