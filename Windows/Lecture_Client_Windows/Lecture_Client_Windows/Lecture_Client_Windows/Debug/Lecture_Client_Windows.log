@@ -1,1 +1,4 @@
-﻿  Lecture_Client_Windows.vcxproj -> D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Debug\Lecture_Client_Windows.exe
+﻿  4_1_echo_client_win.c
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\4_1_echo_client_win.c(66,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\4_1_echo_client_win.c(41,34): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Lecture_Client_Windows.vcxproj -> D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Debug\Lecture_Client_Windows.exe
