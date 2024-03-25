@@ -13,6 +13,9 @@
     <Filter Include="Chapter4">
       <UniqueIdentifier>{0856b2f1-9e83-420a-af77-db73b6a7e226}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter5">
+      <UniqueIdentifier>{17b1d872-a73d-4bc5-afb9-103fd6be6b9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="4_1_echo_server_win.c">
       <Filter>Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="5_1_op_server_win.c">
+      <Filter>Chapter5</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
