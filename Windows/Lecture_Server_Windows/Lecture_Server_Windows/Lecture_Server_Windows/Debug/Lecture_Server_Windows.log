@@ -1,3 +1,5 @@
-﻿  7_1_file_server_win.c
-D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\7_1_file_server_win.c(38,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  8_2_gethostbyaddr_win.c
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\8_2_gethostbyaddr_win.c(37,25): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\8_2_gethostbyaddr_win.c(40,9): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\8_2_gethostbyaddr_win.c(54,38): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   Lecture_Server_Windows.vcxproj -> D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Debug\Lecture_Server_Windows.exe

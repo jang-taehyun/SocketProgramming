@@ -22,6 +22,9 @@
     <Filter Include="Chapter7">
       <UniqueIdentifier>{b22afedc-f299-44b2-84b3-38a716e3d287}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter8">
+      <UniqueIdentifier>{d71e29ea-3b59-4624-9edc-1335a8e37f72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -50,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="7_1_file_server_win.c">
       <Filter>Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="8_1_gethostbyname_win.c">
+      <Filter>Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="8_2_gethostbyaddr_win.c">
+      <Filter>Chapter8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
