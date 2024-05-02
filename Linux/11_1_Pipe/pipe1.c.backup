@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <unistd.h>
+#define BUF_SIZE 30
+
+void ErrorHandling(const char* message)
+{
+	fputs(message, stderr);
+	fputc('\n', stderr);
+	exit(1);
+}
+
+int main()
+{
+	int fds[2];
+	char str[] = "who are you?";
+	char buf[BUF_SIZE];
+	pid_t pid;
+
+	int FunctionResult;
+
+	FunctionResult = pipe(fds);
+	if(FunctionResult)
+		ErrorHandling("pipe() error");
+
+	pid = fork();
+	if(-1 == pid)
+		ErrorHandling("fork() error");
+
+	if(pid)
+	{
+		read(fds[0], buf, BUF_SIZE);
+		puts(buf);
+	}
+	else
+	{
+		write(fds[1], str, sizeof(str));
+	}
+
+	return 0;
+}
