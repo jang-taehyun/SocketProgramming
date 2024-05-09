@@ -28,6 +28,9 @@
     <Filter Include="Chapter9">
       <UniqueIdentifier>{5383ffaf-ea01-400a-ad24-83424758c41b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter13">
+      <UniqueIdentifier>{f8692312-3616-4f91-9c17-0dedea9d245a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_client_win.c">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="9_1_buf_win.c">
       <Filter>Chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="13_1_oob_send_win.c">
+      <Filter>Chapter13</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
