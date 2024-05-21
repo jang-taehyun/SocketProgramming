@@ -1,2 +1,4 @@
-﻿  13_1_oob_recv_win.c
+﻿  14_1_news_sender_win.c
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\14_1_news_sender_win.c(42,37): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Lecture_Server_Windows\14_1_news_sender_win.c(47,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Lecture_Server_Windows.vcxproj -> D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Server_Windows\Lecture_Server_Windows\Debug\Lecture_Server_Windows.exe
