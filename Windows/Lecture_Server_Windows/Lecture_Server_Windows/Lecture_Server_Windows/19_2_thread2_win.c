@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	unsigned threadID;
 	int param = 5;
 
-	hThread = _beginthreadex(NULL, 0, ThreadFunc, (void*)&param, 0, &threadID);
+	hThread = (HANDLE)_beginthreadex(NULL, 0, ThreadFunc, (void*)&param, 0, &threadID);
 	if (0 == hThread)
 	{
 		puts("_beginthreadex() error");

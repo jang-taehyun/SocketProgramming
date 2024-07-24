@@ -1,3 +1,4 @@
-﻿  14_2_news_receiver_win.c
-D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\14_2_news_receiver_win.c(47,37): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  Lecture_Client_Windows.vcxproj -> D:\study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Debug\Lecture_Client_Windows.exe
+﻿  chat_clnt_win.c
+C:\Users\USER\Desktop\Sockpro\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\chat_clnt_win.c(39,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\USER\Desktop\Sockpro\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\chat_clnt_win.c(80,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Lecture_Client_Windows.vcxproj -> C:\Users\USER\Desktop\Sockpro\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Debug\Lecture_Client_Windows.exe

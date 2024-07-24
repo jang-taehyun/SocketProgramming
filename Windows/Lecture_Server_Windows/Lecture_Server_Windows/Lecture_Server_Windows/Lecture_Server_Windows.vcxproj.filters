@@ -40,6 +40,9 @@
     <Filter Include="Chapter19">
       <UniqueIdentifier>{534ca2d6-b11e-429b-847a-4ee6112883e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter20">
+      <UniqueIdentifier>{ddfbb7cf-412f-4ef0-8b27-a107b2764cd1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -95,6 +98,21 @@
     </ClCompile>
     <ClCompile Include="19_3_thread3_win.c">
       <Filter>Chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="20_1_SyncCS_win.c">
+      <Filter>Chapter20</Filter>
+    </ClCompile>
+    <ClCompile Include="20_2_SyncMutex_win.c">
+      <Filter>Chapter20</Filter>
+    </ClCompile>
+    <ClCompile Include="20_3_SyncSema_win.c">
+      <Filter>Chapter20</Filter>
+    </ClCompile>
+    <ClCompile Include="20_4_SyncEvent_win.c">
+      <Filter>Chapter20</Filter>
+    </ClCompile>
+    <ClCompile Include="20_5_chat_serv_win.c">
+      <Filter>Chapter20</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

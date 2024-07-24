@@ -29,14 +29,14 @@ int main(int argc, char* argv[])
 	return 0;
 }
 
-unsigned __stdcall threadInc(void* arg)
+unsigned WINAPI threadInc(void* arg)
 {
 	for (int i = 0; i < 50000000; i++)
 		num++;
 	return 0;
 }
 
-unsigned __stdcall threadDes(void* arg)
+unsigned WINAPI threadDes(void* arg)
 {
 	for (int i = 0; i < 50000000; i++)
 		num--;

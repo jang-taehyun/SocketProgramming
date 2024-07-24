@@ -34,6 +34,9 @@
     <Filter Include="Chapter14">
       <UniqueIdentifier>{b7c0be9e-50c8-48b1-9564-bbdcbba84408}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter20">
+      <UniqueIdentifier>{5f723017-ad45-4267-ab62-b442788aee5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_client_win.c">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="14_2_news_receiver_win.c">
       <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="chat_clnt_win.c">
+      <Filter>Chapter20</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
