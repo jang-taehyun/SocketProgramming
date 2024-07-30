@@ -173,7 +173,10 @@
     <ClCompile Include="20_4_SyncEvent_win.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="20_5_chat_serv_win.c" />
+    <ClCompile Include="20_5_chat_serv_win.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="21_1_AsyncNotiEchoServ_win.c" />
     <ClCompile Include="2_1_tcp_server_win.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

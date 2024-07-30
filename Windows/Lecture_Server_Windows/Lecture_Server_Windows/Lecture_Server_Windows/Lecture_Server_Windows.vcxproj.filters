@@ -43,6 +43,9 @@
     <Filter Include="Chapter20">
       <UniqueIdentifier>{ddfbb7cf-412f-4ef0-8b27-a107b2764cd1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter21">
+      <UniqueIdentifier>{248ae413-c1fc-4079-9b31-e93353cbda49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -113,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="20_5_chat_serv_win.c">
       <Filter>Chapter20</Filter>
+    </ClCompile>
+    <ClCompile Include="21_1_AsyncNotiEchoServ_win.c">
+      <Filter>Chapter21</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
