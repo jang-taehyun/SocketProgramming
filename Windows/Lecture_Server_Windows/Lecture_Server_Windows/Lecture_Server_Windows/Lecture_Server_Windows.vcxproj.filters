@@ -46,6 +46,9 @@
     <Filter Include="Chapter21">
       <UniqueIdentifier>{248ae413-c1fc-4079-9b31-e93353cbda49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter22">
+      <UniqueIdentifier>{708112b5-1370-4202-85c2-909d0a197a5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -119,6 +122,12 @@
     </ClCompile>
     <ClCompile Include="21_1_AsyncNotiEchoServ_win.c">
       <Filter>Chapter21</Filter>
+    </ClCompile>
+    <ClCompile Include="22_1_OverlappedRecv_win.c">
+      <Filter>Chapter22</Filter>
+    </ClCompile>
+    <ClCompile Include="22_2_CmplRoutinesRecv_win.c">
+      <Filter>Chapter22</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
