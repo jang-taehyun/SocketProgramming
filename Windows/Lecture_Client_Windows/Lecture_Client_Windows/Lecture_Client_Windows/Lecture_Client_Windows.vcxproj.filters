@@ -40,6 +40,9 @@
     <Filter Include="Chapter22">
       <UniqueIdentifier>{77e5f837-7b77-4f39-9146-3b55adf8de75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter23">
+      <UniqueIdentifier>{645f9a35-dfae-4b2f-8323-e168005f88aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_client_win.c">
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="22_1_OverlappedSend_win.c">
       <Filter>Chapter22</Filter>
+    </ClCompile>
+    <ClCompile Include="23_1_StableEchoClnt_win.c">
+      <Filter>Chapter23</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

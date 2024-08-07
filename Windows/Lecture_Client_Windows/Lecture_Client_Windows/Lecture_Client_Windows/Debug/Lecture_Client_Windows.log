@@ -1,3 +1,3 @@
-﻿  22_1_OverlappedSend_win.c
-D:\동생\programming\Study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\22_1_OverlappedSend_win.c(42,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+﻿  23_1_StableEchoClnt_win.c
+D:\동생\programming\Study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Lecture_Client_Windows\23_1_StableEchoClnt_win.c(33,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   Lecture_Client_Windows.vcxproj -> D:\동생\programming\Study\SocketProgramming\SocketProgramming\Windows\Lecture_Client_Windows\Lecture_Client_Windows\Debug\Lecture_Client_Windows.exe
