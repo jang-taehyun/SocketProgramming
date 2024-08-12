@@ -188,7 +188,10 @@
     <ClCompile Include="23-1_CmplRouEchoServ_win.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="23-2_IOCPEchoServ_win.c" />
+    <ClCompile Include="23-2_IOCPEchoServ_win.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="24_1_webserv_win.c" />
     <ClCompile Include="2_1_tcp_server_win.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

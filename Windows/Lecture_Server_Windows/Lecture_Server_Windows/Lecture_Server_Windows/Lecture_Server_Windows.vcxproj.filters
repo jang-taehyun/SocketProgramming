@@ -52,6 +52,9 @@
     <Filter Include="Chapter23">
       <UniqueIdentifier>{69e9549e-611c-4add-a93d-95ab28f1879f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter24">
+      <UniqueIdentifier>{e29a41eb-5c53-4fb6-91c6-73be51b05261}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_1_hello_server_win.c">
@@ -137,6 +140,9 @@
     </ClCompile>
     <ClCompile Include="23-2_IOCPEchoServ_win.c">
       <Filter>Chapter23</Filter>
+    </ClCompile>
+    <ClCompile Include="24_1_webserv_win.c">
+      <Filter>Chapter24</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
